@@ -5,7 +5,7 @@ This is intended to be a repository of code of my personal exploratory plotting 
 
 
 - [Contributions to the challange *#30díasdegráficos*](#contributions_to_the_challange_30díasdegráficos) (one plot per day during 30 days)
-- [Rail transport network of the three biggest cities in Spain](#rail_transport_network_of the_three_biggest_cities_in_Spain) (exploration of the **osmdata** package)
+- [Rail transport network of the three biggest cities in Spain](#rail-transport-network-of-the-three-biggest-cities-in-Spain) (exploration of the **osmdata** package)
 
 ### Contributions to the challange 30díasdegráficos
 
