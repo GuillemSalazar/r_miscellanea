@@ -9,7 +9,7 @@ This is intended to be a repository of code of my personal exploratory plotting 
 
 ### Contributions to the challange 30díasdegráficos
 
-My contributions to the challange **#30díasdegráficos** consisting on releasing in Twitter one plot per day during 30 days. The whole collection of plots may be found in [here](https://github.com/cienciadedatos/datos-de-miercoles/blob/master/30-dias-de-graficos-2020.md)
+My contributions to the challange **#30díasdegráficos** consisting on releasing in Twitter one plot per day during 30 days. The whole collection of plots may be found in [here](https://github.com/GuillemSalazar/desafio_30_dias_de_graficos)
 
 ### Rail transport network of the three biggest cities in Spain
 
