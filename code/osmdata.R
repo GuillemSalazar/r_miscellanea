@@ -1,11 +1,11 @@
-library(ggmap)
+library(ggplot2)
 library(osmdata)
 library(patchwork)
 library(extrafont)
 
 # Define variables
 cities<-c("Madrid","Barcelona","València")
-out_file_path<-"../images/osm.png"
+out_file_path<-"../images/1_osm.png"
 plot_width<-13*3
 plot_height<-6.5*3
 bckg_color<-"white"
@@ -59,15 +59,14 @@ get_city_data<-function(city=NULL){
 
 # Extract the information for several cities and make the individual plots
 plot_list<-list(NULL)
-
 for (i in 1:length(cities)){
   toplot<-get_city_data(cities[i])
   plot_list[[i]]<-ggplot() +
     geom_sf(data = toplot$big_streets$osm_lines,inherit.aes = FALSE,color = street_color,size=0.1) +
     geom_sf(data = toplot$med_streets$osm_lines,inherit.aes = FALSE,color = street_color,size=0.1) +
     geom_sf(data = toplot$small_streets$osm_lines,inherit.aes = FALSE,color = street_color,size=0.1) +
-    geom_sf(data = toplot$subway$osm_lines,inherit.aes = FALSE,color = subway_color,size=0.5,alpha=1,alpha=0.6) +
-    geom_sf(data = toplot$railway$osm_lines,inherit.aes = FALSE,color = train_color,size=0.5,alpha=1,alpha=0.6) +
+    geom_sf(data = toplot$subway$osm_lines,inherit.aes = FALSE,color = subway_color,size=0.5,alpha=0.6) +
+    geom_sf(data = toplot$railway$osm_lines,inherit.aes = FALSE,color = train_color,size=0.5,alpha=0.6) +
     theme_void() +
     coord_sf(xlim = toplot$coords[c(2,4)],ylim = toplot$coords[c(1,3)]) +
     labs(title = toplot$city_name,

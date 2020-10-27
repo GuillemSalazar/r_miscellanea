@@ -4,15 +4,6 @@ This is intended to be a repository of code of my personal exploratory plotting 
 
 
 
-- [Contributions to the challange *#30díasdegráficos*](#contributions_to_the_challange_30díasdegráficos) (one plot per day during 30 days)
-- [Rail transport network of the three biggest cities in Spain](#rail-transport-network-of-the-three-biggest-cities-in-Spain) (exploration of the **osmdata** package)
+- [Contributions to the challange *#30díasdegráficos*](https://github.com/GuillemSalazar/desafio_30_dias_de_graficos) (one plot per day during 30 days, in Spanish)
+- [Rail transport network of the three biggest cities in Spain](./doc/1_osm.md) (exploration of the **osmdata** package)
 
-### Contributions to the challange 30díasdegráficos
-
-My contributions to the challange **#30díasdegráficos** consisting on releasing in Twitter one plot per day during 30 days. The whole collection of plots may be found in [here](https://github.com/GuillemSalazar/desafio_30_dias_de_graficos)
-
-### Rail transport network of the three biggest cities in Spain
-
-Extraction of data from Open Street Map through the **osmdata** package and plotting the rail transport network of Madrid, Barcelona and Valencia. Code available [here](./code/osmdata.R).
-
-![osm](./images/osm.png)
