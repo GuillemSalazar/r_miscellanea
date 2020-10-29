@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+# *R miscellanea:* Exploratory plotting exercises with R
 
-You can use the [editor on GitHub](https://github.com/GuillemSalazar/r_miscellanea/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is intended to be a repository of code of my personal exploratory plotting exercises with new R packages/datasets, mostly shared through my [Twitter account](https://twitter.com/GuillemSalazar):
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GuillemSalazar/r_miscellanea/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [Contributions to the challange *#30díasdegráficos*](https://github.com/GuillemSalazar/desafio_30_dias_de_graficos) (one plot per day during 30 days, in Spanish)
+- [Rail transport network of the three largest cities in Spain](./doc/1_osm.md) (exploration of the **osmdata** package)
