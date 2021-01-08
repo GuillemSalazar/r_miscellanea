@@ -1,4 +1,6 @@
-# Rail transport network of the three largest cities in Spain
+---
+title: "Rail transport network of the three largest cities in Spain"
+---
 
 Plotting the rail transport network of Madrid, Barcelona and Valencia. Code available [here](https://github.com/GuillemSalazar/r_miscellanea/blob/gh-pages/code/osmdata.R).
 
