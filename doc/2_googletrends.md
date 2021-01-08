@@ -1,4 +1,4 @@
-# Google trends is Spain during 2020
+# Google trends in Spain during 2020
 
 Plotting the interest over time of terms identified as trending in 2020 by Google Trends. Code available [here](https://github.com/GuillemSalazar/r_miscellanea/blob/gh-pages/code/google_trends_2020.R).
 
